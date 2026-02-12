@@ -10,7 +10,7 @@ export default function PlayerCard({ player, onClick }) {
         <p className="player-position">{player.position}</p>
         <p className="player-club">{player.club}</p>
         <div className="player-stats-mini">
-          <span className="stat-mini">{player.caps} caps</span>
+          <span className="stat-mini">{player.caps} partidos</span>
           <span className="stat-mini">{player.goals} goles</span>
         </div>
       </div>

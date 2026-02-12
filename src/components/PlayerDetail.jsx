@@ -90,7 +90,7 @@ export default function PlayerDetail({ player, onBack }) {
             <div className="stats-boxes">
               <div className="stat-box">
                 <span className="stat-number">{player.caps}</span>
-                <span className="stat-label">Caps</span>
+                <span className="stat-label">Partidos</span>
               </div>
               <div className="stat-box">
                 <span className="stat-number">{player.goals}</span>
